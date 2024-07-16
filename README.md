@@ -1,7 +1,7 @@
 
 The purpose of this PowerShell script is to remove all SharePoint shortcuts a user has set on their professional OneDrive (when they click on "Add shortcut to OneDrive" instead of clicking the Sync button), through Intune, GPO, or manually.
 
-The script will check if there is an occurrence of the REGZ "IsFolderScope" with a value of 1 in this registry path: "HKCU:\Software\SyncEngines\Providers\OneDrive". If yes, it will check the path in the REGZ "IsFolderScope" with a value of 1 and finally delete the folder.
+The script will check if there is an occurrence of the REGZ "IsFolderScope" with a value of 1 in this registry path: "HKCU:\Software\SyncEngines\Providers\OneDrive". If yes, it will check the path in the REGZ "MountPoint" value and finally delete the folder.
 
 The final goal for system administrators is to push, after this script, a correct, ISO-compliant SharePoint Folder Sync and not let the user create shortcuts directly in their OneDrive.
 
