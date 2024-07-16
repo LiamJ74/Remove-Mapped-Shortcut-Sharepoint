@@ -9,7 +9,7 @@ You can disable the "Add shortcut to OneDrive" button on SharePoint with these c
 
 ```powershell
 # Connect to SharePoint Online
-Connect-SPOService "https://crescent-admin.sharepoint.com"
+Connect-SPOService "https://site.sharepoint.com"
  
 # Disable "Add Shortcut to OneDrive"
 Set-SPOTenant -DisableAddShortCutsToOneDrive $True
