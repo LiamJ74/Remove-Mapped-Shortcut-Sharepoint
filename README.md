@@ -20,7 +20,7 @@ If you want to push SharePoint Library Folder directly through Intune, see:
 
 2. [Create ODopen link to sync SharePoint Library](https://fabozzi.net/create-odopen-link-to-sync-sharepoint-library/)
 
-Here the powershell command if you already know how to sind SyncID : 
+Here the powershell command if you already know how to find SyncID : 
 
 ```powershell
 #>
